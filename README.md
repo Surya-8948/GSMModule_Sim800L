@@ -9,12 +9,6 @@
 
 <p>
 
-<a href="https://github.com/Surya-8948/GSMModule_Sim800L"> <img src="https://img.shields.io/github/stars/Surya-8948/GSMModule_Sim800L?style=for-the-badge" alt="Stars"> </a>
-
-<a href="https://github.com/Surya-8948/GSMModule_Sim800L/network/members"> <img src="https://img.shields.io/github/forks/Surya-8948/GSMModule_Sim800L?style=for-the-badge" alt="Forks"> </a>
-
-<a href="https://github.com/Surya-8948/GSMModule_Sim800L/issues"> <img src="https://img.shields.io/github/issues/Surya-8948/GSMModule_Sim800L?style=for-the-badge" alt="Issues"> </a>
-
 <img src="https://img.shields.io/badge/Arduino-Compatible-00979D?style=for-the-badge&logo=arduino&logoColor=white">
 
 <img src="https://img.shields.io/badge/ESP32-Supported-E7352C?style=for-the-badge&logo=espressif&logoColor=white">
@@ -27,16 +21,7 @@
 
 </p>
 
-<p>
 
-⭐ Beginner Friendly   •  
-📱 AT Commands   •  
-🌍 GSM Location   •  
-🏠 Home Automation   •  
-🚗 GPS Tracking   •  
-🌐 GPRS Internet
-
-</p>
 
 </div>
 A complete collection of **SIM800L GSM Module** examples for **Arduino UNO, ESP8266, and ESP32**. This repository is designed for beginners, students, hobbyists, and embedded engineers who want to learn GSM communication using AT Commands and practical projects.
