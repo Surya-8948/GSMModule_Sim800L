@@ -7,7 +7,8 @@ void setup()
 Serial.begin(115200);
 sim800.begin(9600);
 delay(3000);
-
+ sim800.write(F("AT"));// F is a Arduino marco that store AT in flash memory instead of Ram 
+ delay(1000);
 }
 
 void loop()
@@ -18,7 +19,7 @@ void loop()
   }
   if(sim800.available()>0)
   {
-    sim800.write(F("AT"));// F is a Arduino marco that store AT in flash memory instead of Ram 
+   
     Serial.write(sim800.read());
   }
 }
