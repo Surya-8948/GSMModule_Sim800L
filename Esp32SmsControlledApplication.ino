@@ -26,7 +26,7 @@ void loop()
     msg = gsm.readString();
     Serial.println(msg);
     // Ignore SMS from unknown numbers
-    if(msg.indexOf(USER) == -1)
+    if(msg.indexOf(USER) == -1) // most imp line if auth number is not detected  then it will return -1 ,
       return;
     if(msg.indexOf("CH1 ON")!=-1) digitalWrite(CH1,HIGH);
     if(msg.indexOf("CH1 OFF")!=-1) digitalWrite(CH1,LOW);
